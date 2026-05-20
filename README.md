@@ -40,7 +40,11 @@ git status
 ```
 </br> </br>
 
-
+- To Commit All Files In Directory :
+```
+git commit -m "Any Commit Message..."
+```
+</br> </br>
 git clone [repo url HTTP] : to get code repo in our system
 
 
