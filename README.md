@@ -34,7 +34,7 @@ git add .
 ```
 </br> </br>
 
-- To see Which files are staged (ready to commit) - in GREEN, Which files are modified but not staged - in RED & Which files are untracked (new files Git doesn't know about) :
+- To see Which files are in staging area (ready to commit) - in GREEN, Which files are modified but not staged - in RED & Which files are untracked (new files Git doesn't know about) :
 ```
 git status
 ```
