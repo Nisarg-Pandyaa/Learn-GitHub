@@ -28,7 +28,14 @@ git init
 ```
 </br> </br>
 
-- To Stage ALL files in the current directory for commit :
+- To Stage a file in the current directory for commit : `"Folder Se GitHub K Staging Area Me Add Kardo"`
+```
+git add [file1 name] [file2 name] ...
+```
+</br> </br>
+
+- To Stage ALL files in the current directory for commit : </br>
+`Jo Bhi STAGING AREA Me Files Hoti Hea Usse Ab GIT Track Kar Sakta Hea`
 ```
 git add .
 ```
@@ -40,11 +47,26 @@ git status
 ```
 </br> </br>
 
-- To Commit All Files In Directory :
+- To snapshot files in staging area : `"It's Like A Checkpoint and I can comeback here anytime again"`
 ```
 git commit -m "Any Commit Message..."
 ```
 </br> </br>
-git clone [repo url HTTP] : to get code repo in our system
 
+- To See All the checkpoints:
+```
+git log
+```
+</br> </br>
 
+- To See All the checkpoints in one line (but DATE & TIME & AUTHOR will not appear) :
+```
+git log --oneline
+```
+</br> </br>
+
+- To get file back from staging area to local folder :
+```
+git restore --staged [file1 name] [file2 name] ...
+```
+</br> </br>
