@@ -22,7 +22,7 @@ git config --global user.email
 ```
 </br> </br>
 
-- To Initialize Git Repository :
+- To Initialize Git Repository : `"Yo.. Git, Track My Code Folder"`
 ```
 git init
 ```
