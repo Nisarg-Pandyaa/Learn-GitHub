@@ -70,3 +70,13 @@ git log --oneline
 git restore --staged [file1 name] [file2 name] ...
 ```
 </br> </br>
+
+- To Ignore Some Files While Pushing It On GitHub :
+- `Create A .gitignore File In The Folder And Write [Files Name] and Any [FolderName/] (To Ignore All Files In That Folder, folder included) In It`
+
+</br> </br>
+
+- `GIT Don't Track EMPTY Directories` To Do So (to Track empty directory) :
+- `CREATE A .gitkeep FILE IN EMPTY DIRECTORIES SO THAT GIT CAN TRACK THEM`
+
+</br> </br>
