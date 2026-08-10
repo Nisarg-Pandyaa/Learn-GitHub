@@ -80,3 +80,34 @@ git restore --staged [file1 name] [file2 name] ...
 - `CREATE A .gitkeep FILE IN EMPTY DIRECTORIES SO THAT GIT CAN TRACK THEM`
 
 </br> </br>
+
+- To Create New Branch :
+```
+git branch [branch_name]
+```
+</br> </br>
+
+- To See All branches (with * in current branch you are present) :
+```
+git branch
+```
+</br> </br>
+
+- To Switch to a specific branch :
+```
+git switch [branch_name]
+```
+</br> </br>
+
+- To merge sub-branch to main branch :
+```
+git switch main
+git merge [sub-branch name]
+```
+</br> </br>
+
+- To delete sub-branch :
+```
+git branch -d [branch_name]
+```
+</br> </br>
